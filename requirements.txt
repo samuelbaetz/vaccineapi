@@ -9,6 +9,9 @@ click==7.1.2; python_version >= "2.7" and python_full_version < "3.0.0" or pytho
     --hash=sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a
 flask-apscheduler==1.12.1 \
     --hash=sha256:45e19411efb3a7e986ed0b476a2d93900744967782fbc349f54b954ac2440362
+flask-cors==3.0.10 \
+    --hash=sha256:b60839393f3b84a0f3746f6cdca56c1ad7426aa738b70d6c61375857823181de \
+    --hash=sha256:74efc975af1194fc7891ff5cd85b0f7478be4f7f59fe158102e91abb72bb4438
 flask-restful==0.3.8 \
     --hash=sha256:5ea9a5991abf2cb69b4aac19793faac6c032300505b325687d7c305ffaa76915 \
     --hash=sha256:d891118b951921f1cec80cabb4db98ea6058a35e6404788f9e70d5b243813ec2

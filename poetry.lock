@@ -76,6 +76,18 @@ flask = ">=0.10.1"
 python-dateutil = ">=2.4.2"
 
 [[package]]
+name = "flask-cors"
+version = "3.0.10"
+description = "A Flask extension adding a decorator for CORS support"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Flask = ">=0.9"
+Six = "*"
+
+[[package]]
 name = "flask-restful"
 version = "0.3.8"
 description = "Simple framework for creating REST APIs"
@@ -175,7 +187,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "e03f712f3a43b63151d92c589aca7cd393ee968fc8d42bf3a95811a2ee91832e"
+content-hash = "f5faa366bc3f6f950e5edf6708fcd9ccea0fc11917765e5fa7b11019b3a3ef72"
 
 [metadata.files]
 aniso8601 = [
@@ -196,6 +208,10 @@ flask = [
 ]
 flask-apscheduler = [
     {file = "Flask-APScheduler-1.12.1.tar.gz", hash = "sha256:45e19411efb3a7e986ed0b476a2d93900744967782fbc349f54b954ac2440362"},
+]
+flask-cors = [
+    {file = "Flask-Cors-3.0.10.tar.gz", hash = "sha256:b60839393f3b84a0f3746f6cdca56c1ad7426aa738b70d6c61375857823181de"},
+    {file = "Flask_Cors-3.0.10-py2.py3-none-any.whl", hash = "sha256:74efc975af1194fc7891ff5cd85b0f7478be4f7f59fe158102e91abb72bb4438"},
 ]
 flask-restful = [
     {file = "Flask-RESTful-0.3.8.tar.gz", hash = "sha256:5ea9a5991abf2cb69b4aac19793faac6c032300505b325687d7c305ffaa76915"},
