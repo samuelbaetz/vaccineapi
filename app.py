@@ -20,6 +20,9 @@ def download():
 with open('./file.json') as f:
     data = json.load(f)
 
+@app.route('/')
+def home():
+    return "Vaccine API"
 
 
 
