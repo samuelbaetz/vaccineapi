@@ -1,4 +1,4 @@
-from flask import Flask,request
+from flask import Flask,request,render_template
 from flask_restful import Resource, Api
 import json
 import urllib.request
@@ -22,7 +22,7 @@ with open('./file.json') as f:
 
 @app.route('/')
 def home():
-    return "Vaccine API"
+    return render_template('index.html')
 
 
 
@@ -39,4 +39,3 @@ class Country(Resource):
 api.add_resource(AllItems, '/data/')
 api.add_resource(Country, '/data/<string:name>')
 scheduler.start()
-app.run(port=5002)
